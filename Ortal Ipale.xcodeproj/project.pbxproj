@@ -741,7 +741,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Convertify/Convertify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG23SGZ3DK;
+				DEVELOPMENT_TEAM = L28CB644SY;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Convertify/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -764,7 +764,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Convertify/Convertify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG23SGZ3DK;
+				DEVELOPMENT_TEAM = L28CB644SY;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Convertify/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -784,7 +784,7 @@
 			baseConfigurationReference = E57C45DD68D2F661EC37E456 /* Pods-PushNotification.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG23SGZ3DK;
+				DEVELOPMENT_TEAM = L28CB644SY;
 				INFOPLIST_FILE = PushNotification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -805,7 +805,7 @@
 			baseConfigurationReference = 60D62DAFA7B4B04212F1F440 /* Pods-PushNotification.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG23SGZ3DK;
+				DEVELOPMENT_TEAM = L28CB644SY;
 				INFOPLIST_FILE = PushNotification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
