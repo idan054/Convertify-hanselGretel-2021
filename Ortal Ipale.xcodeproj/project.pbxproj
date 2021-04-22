@@ -67,7 +67,7 @@
 		18FDEDBA24B9F1840000C029 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 18FDEDB924B9F1840000C029 /* test.js */; };
 		18FDEDBD24B9F2080000C029 /* InjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDEDBC24B9F2080000C029 /* InjectUtils.swift */; };
 		1D8A0F882631F49E003E45F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A0F872631F49E003E45F2 /* Main.storyboard */; };
-		1D8A0F8F2631F654003E45F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A0F822631F3F0003E45F2 /* LaunchScreen.storyboard */; };
+		1D8A0FA52631F96D003E45F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A0FA42631F96D003E45F2 /* LaunchScreen.storyboard */; };
 		7CBABAD82F1F50761B5D3ABC /* Pods_Convertify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7436512C883B36ED736C8D61 /* Pods_Convertify.framework */; };
 		A8295D22A9F3135C2BC27E6F /* Pods_PushNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F057213D65A37C12A25B2D /* Pods_PushNotification.framework */; };
 /* End PBXBuildFile section */
@@ -161,8 +161,8 @@
 		18FDEDB724B9F1540000C029 /* test.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = test.css; sourceTree = "<group>"; };
 		18FDEDB924B9F1840000C029 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		18FDEDBC24B9F2080000C029 /* InjectUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectUtils.swift; sourceTree = "<group>"; };
-		1D8A0F822631F3F0003E45F2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D8A0F872631F49E003E45F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D8A0FA42631F96D003E45F2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60D62DAFA7B4B04212F1F440 /* Pods-PushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotification.release.xcconfig"; path = "Target Support Files/Pods-PushNotification/Pods-PushNotification.release.xcconfig"; sourceTree = "<group>"; };
 		7436512C883B36ED736C8D61 /* Pods_Convertify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Convertify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F057213D65A37C12A25B2D /* Pods_PushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,8 +262,8 @@
 		18908163234C5D6A0062A7BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1D8A0FA42631F96D003E45F2 /* LaunchScreen.storyboard */,
 				1D8A0F872631F49E003E45F2 /* Main.storyboard */,
-				1D8A0F822631F3F0003E45F2 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -460,7 +460,7 @@
 				18FDEDBA24B9F1840000C029 /* test.js in Resources */,
 				18FDEDB824B9F1540000C029 /* test.css in Resources */,
 				189087A924DFCE2B007E241D /* animatedText.gif in Resources */,
-				1D8A0F8F2631F654003E45F2 /* LaunchScreen.storyboard in Resources */,
+				1D8A0FA52631F96D003E45F2 /* LaunchScreen.storyboard in Resources */,
 				18EC1A1D234F02360089DC31 /* Assets.xcassets in Resources */,
 				188D11E6235438DF00724124 /* Website in Resources */,
 			);
