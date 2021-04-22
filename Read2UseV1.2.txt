@@ -1,0 +1,47 @@
+Configure the Convertify sample
+====================
+
+0. Get 
+1. Open Convertify XCworkspace
+
+2. Make sure to edit:
+- Display name
+- Bundle identifier
+- Push Bundle identifier
+- Name (On the right window)
+
+3. Open Settings.swift
+- edit static HOST
+- edit static URL 
+* External login (like google) works great. tested on Spider3D google login.
+
+
+4. Change App icon
+- get the chosen logo
+- Open Assets catalog creator App.
+- insert the logo pic
+- choose output directory (Make new folder)
+- click Create Asset Catalog
+- open folders and copy AppIcon.appiconset Folder
+- In Finder:
+	- pasted on the main Convertify project in Assets.xcasset (Replace current folder)
+	- click replace
+
+5. Change launch screen
+- get logo and BitonApp signature on those versions:
+	logo:
+	launch@1x.png 222X222
+	launch@2x.png 222X222
+	launch@3x.png 442X442
+
+	signature:
+	sign@1x.png 222X54
+	sign@2x.png 222X54
+	sign@3x.png 442X108
+(Example Mega folder: https://mega.nz/folder/igthAKTA#7wCzVZrSHnDz5gTCkgCtnQ)
+- In Finder:
+	- go to the main Convertify project >> Assets.xcasset >> launch.imageset & sign.imageset (2 folders)
+	- replace the files inside
+
+How to edit source code by Convertify:
+https://www.youtube.com/watch?v=nG4Dv-GS8qg

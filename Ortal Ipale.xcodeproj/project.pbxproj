@@ -18,7 +18,6 @@
 		1890814B234C46B60062A7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890814A234C46B60062A7BB /* AppDelegate.swift */; };
 		1890814F234C46B60062A7BB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890814E234C46B60062A7BB /* HomeController.swift */; };
 		18908152234C46B60062A7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18908150234C46B60062A7BB /* Main.storyboard */; };
-		18908157234C46B70062A7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18908155234C46B70062A7BB /* LaunchScreen.storyboard */; };
 		1890815F234C5C5D0062A7BB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890815E234C5C5D0062A7BB /* Settings.swift */; };
 		189087A324DFC671007E241D /* AddGifs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189087A224DFC671007E241D /* AddGifs.swift */; };
 		189087A924DFCE2B007E241D /* animatedText.gif in Resources */ = {isa = PBXBuildFile; fileRef = 189087A824DFCE2B007E241D /* animatedText.gif */; };
@@ -68,6 +67,7 @@
 		18FDEDB824B9F1540000C029 /* test.css in Resources */ = {isa = PBXBuildFile; fileRef = 18FDEDB724B9F1540000C029 /* test.css */; };
 		18FDEDBA24B9F1840000C029 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 18FDEDB924B9F1840000C029 /* test.js */; };
 		18FDEDBD24B9F2080000C029 /* InjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDEDBC24B9F2080000C029 /* InjectUtils.swift */; };
+		1D5B2B6D2631B812000BBF75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B2B6B2631B812000BBF75 /* LaunchScreen.storyboard */; };
 		7CBABAD82F1F50761B5D3ABC /* Pods_Convertify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7436512C883B36ED736C8D61 /* Pods_Convertify.framework */; };
 		A8295D22A9F3135C2BC27E6F /* Pods_PushNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F057213D65A37C12A25B2D /* Pods_PushNotification.framework */; };
 /* End PBXBuildFile section */
@@ -106,11 +106,10 @@
 		1885C54224DC1D5600915D14 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1888874D24DD5A6F00A892C7 /* GlobalFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFuncs.swift; sourceTree = "<group>"; };
 		188D11E5235438DF00724124 /* Website */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Website; sourceTree = "<group>"; };
-		18908147234C46B60062A7BB /* Convertify App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convertify App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18908147234C46B60062A7BB /* Ortal Ipale App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ortal Ipale App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1890814A234C46B60062A7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1890814E234C46B60062A7BB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		18908151234C46B60062A7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18908156234C46B70062A7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18908158234C46B70062A7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1890815E234C5C5D0062A7BB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		189087A224DFC671007E241D /* AddGifs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGifs.swift; sourceTree = "<group>"; };
@@ -163,6 +162,7 @@
 		18FDEDB724B9F1540000C029 /* test.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = test.css; sourceTree = "<group>"; };
 		18FDEDB924B9F1840000C029 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		18FDEDBC24B9F2080000C029 /* InjectUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectUtils.swift; sourceTree = "<group>"; };
+		1D5B2B6C2631B812000BBF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../hanselngretel/Convertify/View/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60D62DAFA7B4B04212F1F440 /* Pods-PushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotification.release.xcconfig"; path = "Target Support Files/Pods-PushNotification/Pods-PushNotification.release.xcconfig"; sourceTree = "<group>"; };
 		7436512C883B36ED736C8D61 /* Pods_Convertify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Convertify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F057213D65A37C12A25B2D /* Pods_PushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,7 +221,7 @@
 		18908148234C46B60062A7BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18908147234C46B60062A7BB /* Convertify App.app */,
+				18908147234C46B60062A7BB /* Ortal Ipale App.app */,
 				18990013235A17F600CDE3FF /* PushNotification.appex */,
 			);
 			name = Products;
@@ -262,8 +262,8 @@
 		18908163234C5D6A0062A7BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1D5B2B6B2631B812000BBF75 /* LaunchScreen.storyboard */,
 				18908150234C46B60062A7BB /* Main.storyboard */,
-				18908155234C46B70062A7BB /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -375,9 +375,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18908146234C46B60062A7BB /* Convertify */ = {
+		18908146234C46B60062A7BB /* Ortal Ipale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1890815B234C46B70062A7BB /* Build configuration list for PBXNativeTarget "Convertify" */;
+			buildConfigurationList = 1890815B234C46B70062A7BB /* Build configuration list for PBXNativeTarget "Ortal Ipale" */;
 			buildPhases = (
 				52F65764203FE7286CD5C96B /* [CP] Check Pods Manifest.lock */,
 				18908143234C46B60062A7BB /* Sources */,
@@ -391,9 +391,9 @@
 			dependencies = (
 				18990019235A17F600CDE3FF /* PBXTargetDependency */,
 			);
-			name = Convertify;
+			name = "Ortal Ipale";
 			productName = Convertify;
-			productReference = 18908147234C46B60062A7BB /* Convertify App.app */;
+			productReference = 18908147234C46B60062A7BB /* Ortal Ipale App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18990012235A17F600CDE3FF /* PushNotification */ = {
@@ -432,7 +432,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18908142234C46B60062A7BB /* Build configuration list for PBXProject "Convertify" */;
+			buildConfigurationList = 18908142234C46B60062A7BB /* Build configuration list for PBXProject "Ortal Ipale" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -445,7 +445,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18908146234C46B60062A7BB /* Convertify */,
+				18908146234C46B60062A7BB /* Ortal Ipale */,
 				18990012235A17F600CDE3FF /* PushNotification */,
 			);
 		};
@@ -457,10 +457,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FDEDBA24B9F1840000C029 /* test.js in Resources */,
-				18908157234C46B70062A7BB /* LaunchScreen.storyboard in Resources */,
 				18FDEDB824B9F1540000C029 /* test.css in Resources */,
 				189087A924DFCE2B007E241D /* animatedText.gif in Resources */,
 				18EC1A1D234F02360089DC31 /* Assets.xcassets in Resources */,
+				1D5B2B6D2631B812000BBF75 /* LaunchScreen.storyboard in Resources */,
 				188D11E6235438DF00724124 /* Website in Resources */,
 				18908152234C46B60062A7BB /* Main.storyboard in Resources */,
 			);
@@ -625,10 +625,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18908155234C46B70062A7BB /* LaunchScreen.storyboard */ = {
+		1D5B2B6B2631B812000BBF75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18908156234C46B70062A7BB /* Base */,
+				1D5B2B6C2631B812000BBF75 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -768,8 +768,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.convertify.hanselngretel;
-				PRODUCT_NAME = "Convertify App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biton.ortalipale;
+				PRODUCT_NAME = "Ortal Ipale App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -791,8 +791,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.convertify.hanselngretel;
-				PRODUCT_NAME = "Convertify App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biton.ortalipale;
+				PRODUCT_NAME = "Ortal Ipale App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -811,7 +811,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.convertify.hanselngretel.PushNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biton.ortalipale.PushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -832,7 +832,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.convertify.hanselngretel.PushNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biton.ortalipale.PushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -843,7 +843,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18908142234C46B60062A7BB /* Build configuration list for PBXProject "Convertify" */ = {
+		18908142234C46B60062A7BB /* Build configuration list for PBXProject "Ortal Ipale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18908159234C46B70062A7BB /* Debug */,
@@ -852,7 +852,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1890815B234C46B70062A7BB /* Build configuration list for PBXNativeTarget "Convertify" */ = {
+		1890815B234C46B70062A7BB /* Build configuration list for PBXNativeTarget "Ortal Ipale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1890815C234C46B70062A7BB /* Debug */,
