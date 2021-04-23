@@ -74,7 +74,7 @@ Configure push nonification
 
 # U can't send push to the Simulator | Tested
 # U can send messages to installed app (By Diawi) | Tested
-# U might send messages to TestFlight App | PreTest
+# U can send messages to app installed by TestFlight | Tested
 
 How to edit setup push notification by Convertify:
 https://www.youtube.com/watch?v=6-EI1gXb670
