@@ -3,9 +3,9 @@ import UIKit
 
 class Settings {
     
-    public static let HOST = "ortalipale.co.il" /// if url has "www" then add host like "www.domain.com" else would be white screen
+    public static let HOST = "oitserious-6c9dc.web.app" /// if url has "www" then add host like "www.domain.com" else would be white screen
     
-    public static let URL = "https://ortalipale.co.il/"
+    public static let URL = "https://itserious-6c9dc.web.app/"
     public static let USER_AGENT:String = "Mozilla/5.0 (Linux; Android 9; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36 Convertify"
     
     ///----------------------------- Local Html Setup Start ----------------------
@@ -18,13 +18,13 @@ class Settings {
     public static let ORIENTATION = 2 /// 0 for portrait, 1 for landscape, 2 for both
     
     public static let LOADING_SIGN = true
-    public static let LOADING_SIGN_COLOR = HexColor.hexValue(hex: "#ffffff")
+    public static let LOADING_SIGN_COLOR = HexColor.hexValue(hex: "#000000")
     
     public static let PULL_TO_REFRESH = true
     public static let RATE_DIALOG = true
     
-    public static let STATUS_BAR_COLOR = HexColor.hexValue(hex: "#000000")
-    public static let STATUS_BAR_TEXT_COLOR = 0  /// 0 for white, 1 for black
+    public static let STATUS_BAR_COLOR = HexColor.hexValue(hex: "#ffffff")
+    public static let STATUS_BAR_TEXT_COLOR = 1  /// 0 for white, 1 for black
     
     public static let RATE_DIALOG_AFTER_APP_LAUNCHES = 3 /// dialog appears at 4th launch
     public static var PUSH_ENABLED = true
