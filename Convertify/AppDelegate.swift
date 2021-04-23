@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false, kOSSettingsKeyInAppLaunchURL: false]
 
              OneSignal.initWithLaunchOptions(launchOptions,
-             appId: "75755d0b-56eb-4c5f-b713-22367ac3dad2",
+             appId: "64439409-6d15-4d06-9927-fcab2b1e7ad6",
              handleNotificationAction: {(result) in
                  let payload = result?.notification.payload
                  if let additionalData = payload?.additionalData{
