@@ -1,35 +1,31 @@
-Configure the Convertify sample
+0. Make a new branch from "Convertify-hanselGretel-2021" Repo
+
+Main configuration 
 ====================
-
-0. Clone the Hansel 2021 Repo (Tested Ver or Same Ver as title)
 1. Open Convertify XCworkspace
-
 2. Make sure to edit:
-- Display name
-- Bundle identifier
-- Push Bundle identifier
-- Check auto manage signing 
-- Name (On the right window)
+- Display name (V1.5)
+- Bundle & Push identifier (V1.5)
+- Check auto manage signing, also to push Target (V1.5)
+- Name, On the right window (V1.5)
 
 3. Open Settings.swift
 - edit static HOST
-- edit static URL 
-* External login (like google) works great. tested on Spider3D google login.
+- edit static URL
+- edit LOADING_SIGN_COLOR as needed (V1.5)
+- edit STATUS_BAR_COLOR & STATUS_BAR_TEXT_COLOR as needed (V1.5)
+* External login (like google) works great | Tested
+* Apps integration like open Instagram app work | Tested
 
-
-4. Change App icon
-- get the chosen logo
-- Open Assets catalog creator App.
-- insert the logo pic
-- choose output directory (Make new folder)
+4. Change App icon (V1.5)
+- Download to the mac the chosen logo (512X512 recommend)
+- Open in Assets catalog creator App.
+- choose output from project Assets.xcassets directory
+- choose overwrite
 - click Create Asset Catalog
-- open folders and copy AppIcon.appiconset Folder
-- In Finder:
-	- pasted on the main Convertify project in Assets.xcasset (Replace current folder)
-	- click replace
 
-5. Change launch screen
-- get logo and BitonApp signature on those versions:
+5. Change launch screen (V1.5)
+- Make logo and BitonApp signature on those versions:
 	logo:
 	launch@1x.png 222X222
 	launch@2x.png 222X222
@@ -40,9 +36,13 @@ Configure the Convertify sample
 	sign@2x.png 222X54
 	sign@3x.png 442X108
 (Example Mega folder: https://mega.nz/folder/igthAKTA#7wCzVZrSHnDz5gTCkgCtnQ)
-- In Finder:
-	- go to the main Convertify project >> Assets.xcasset >> launch.imageset & sign.imageset (2 folders)
-	- replace the files inside
+- Open the project on github
+- commit the updates.
+- (Change background) On Xcode:
+	- open Convertify > View > LaunchScreen.storyboard
+	- open the folders on the ledt window and choose "View"
+	- On the right windows, select the settings (5th) Tab
+	- Change background color
 
 How to edit source code by Convertify:
 https://www.youtube.com/watch?v=nG4Dv-GS8qg
@@ -93,6 +93,13 @@ Real iphone test with Diawi
 10. Upload the ipa file (in the folder) to Diawi
 11. Click "more option" to remove password from the link
 
+(Overall Apple agrrements Brief:)
+1. Make a request from a mac
+2. Create certificate from Apple developer site
+3. upload the certificate to the Keychain app in he mac
+4. Export .p12 from the keychain app
+5, upload the .p12 to one signal
+
 Setup App to AppStore
 ========================
 1. from the Apple Developer site open App store connect
@@ -105,9 +112,10 @@ Setup App to AppStore
 5. Choose (generic) Any ios device on xcode
 6. From the menu, Select Product > Archive
 3. Wait... then choose Distrbute App
-4. Choose App Store conect option > next
-5. (Choose upload) > next
-6. Wait.. (Ticks screen) > next
-7.  (Automatically manage signing) > next
-8. Wait... (pass in needed) -> click upload! (About 2 minutes)
+4. Choose App Store connect option > next > next > next > upload
+5. (Choose upload)
+6. (Ticks screen)
+7. (Automatically manage signing)
+8. (pass in needed)
+ -> click upload! (WaitAbout 2 minutes)
 Known error: "...Apple side... wait a hour..." - It was 5:00 am when i got this error so I If to sleep (Wait like they said, and then with 0 changes upload again and it works)
