@@ -4,43 +4,47 @@ Main configuration
 ====================
 1. Open Convertify XCworkspace
 2. Make sure to edit:
-- Display name (V1.5)
-- Bundle & Push identifier (V1.5)
-- Check auto manage signing, also to push Target (V1.5)
-- Name, On the right window (V1.5)
+- Name, On the right window
+- Display name - My
+- Bundle & Push identifier - My
+- Check auto manage signing, also to push Target - My
+
 
 3. Open Settings.swift
-- edit static HOST
-- edit static URL
+- edit static HOST - My
+- edit static URL  - My
 - edit LOADING_SIGN_COLOR as needed (V1.5)
 - edit STATUS_BAR_COLOR & STATUS_BAR_TEXT_COLOR as needed (V1.5)
 * External login (like google) works great | Tested
 * Apps integration like open Instagram app work | Tested
 
-4. Change App icon (V1.5)
+4. Change App icon - My
 - Download to the mac the chosen logo (512X512 recommend)
 - Open in Assets catalog creator App.
 - choose output from project Assets.xcassets directory
 - choose overwrite
 - click Create Asset Catalog
 
-5. Change launch screen (V1.5)
+5. Change launch screen - My
 - Make logo and BitonApp signature on those versions:
-	logo:
+	logo:  - My
 	launch@1x.png 222X222
 	launch@2x.png 222X222
 	launch@3x.png 442X442
 
-	signature:
+	signature: - My
 	sign@1x.png 222X54
 	sign@2x.png 222X54
 	sign@3x.png 442X108
+
+(On psd: sign@1x.png, sign@2x.png, sign@3x.png
+
 (Example Mega folder: https://mega.nz/folder/igthAKTA#7wCzVZrSHnDz5gTCkgCtnQ)
 - Open the project on github
 - commit the updates.
 - (Change background) On Xcode:
 	- open Convertify > View > LaunchScreen.storyboard
-	- open the folders on the ledt window and choose "View"
+	- open the folders on the left window and choose "View"
 	- On the right windows, select the settings (5th) Tab
 	- Change background color
 
@@ -51,7 +55,7 @@ Configure push nonification
 ===========================
 # Do the whole process from a Mac is recommended
 1. Create new app on OneSignal (click iOS)
-2. Open keychain Access App
+2. keychain Access App
 3. Choose Certificate Assistant from the main menu
 4. Then choose Request a certificate from the certficate author
 5. Insert User Email adress (only) and save the file to disk
