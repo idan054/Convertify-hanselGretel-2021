@@ -86,28 +86,29 @@ class Settings {
     
     
     ///----------------------------- Bottom menu Setup Start --------------------------------------------------
-    public static let SHOW_BOTTOM_MENU = false
+    public static let SHOW_BOTTOM_MENU = true
     // Note: Bottom menu cannot have more than 5 items, Left Drawer can have more items
     // Note: Titles and icons arrays must have same number of values
     public static let BOTTOM_MENU_TITLES = [
-            "Home",
-            "Notifications",
-            "Account",
+        "ראשי",
+            "מבצעים",
+            "מחשבים",
     ]
     public static let SHOW_BOTTOM_MENU_ICONS = true
     public static let BOTTOM_MENU_ICONS = [ // put the icons in Assests
-            "testingIcon",
-            "testingIcon",
-            "testingIcon",
+            "mainBottom",
+            "saleBottom",
+//            "LaptopBottom",
+        "ComputerBottom",
     ]
     public static let BOTTOM_MENU_LINKS = [
-            "https://www.google.com",
-            "https://www.facebook.com",
-            "https://www.twitter.com"
+            "https://mypc2020.co.il/", // ראשי
+            "https://mypc2020.co.il/Catalog.asp?t1=11", // מבצעים
+            "https://mypc2020.co.il/Catalog.asp?t1=1" // מחשבים
     ]
-    public static let BOTTOM_MENU_SELECTED_ITEM_COLOR = HexColor.hexValue(hex: "#ffffff") /// color of selected item
+    public static let BOTTOM_MENU_SELECTED_ITEM_COLOR = HexColor.hexValue(hex: "#c2932f") /// color of selected item
     public static let BOTTOM_MENU_UNSELECTED_ITEM_COLOR = HexColor.hexValue(hex: "#ffffff") /// color of unselected item
-    public static let BOTTOM_MENU_BACKGROUND_COLOR = HexColor.hexValue(hex: "#000000")
+    public static let BOTTOM_MENU_BACKGROUND_COLOR = HexColor.hexValue(hex: "#021723")
     ///----------------------------- Bottom menu Setup End --------------------------------------------------
     
     
