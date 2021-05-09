@@ -3,9 +3,9 @@ import UIKit
 
 class Settings {
     
-    public static let HOST = "www.mypc2020.co.il" /// if url has "www" then add host like "www.domain.com" else would be white screen
+    public static let HOST = "promisrael.com" /// if url has "www" then add host like "www.domain.com" else would be white screen
     
-    public static let URL = "https://www.mypc2020.co.il/"
+    public static let URL = "https://promisrael.com/"
     public static let USER_AGENT:String = "Mozilla/5.0 (Linux; Android 9; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36 Convertify"
     
     ///----------------------------- Local Html Setup Start ----------------------
